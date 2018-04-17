@@ -13,6 +13,8 @@
 		BD30B66F20623EAD00C25EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD30B66E20623EAD00C25EA5 /* Assets.xcassets */; };
 		BD30B67220623EAD00C25EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD30B67020623EAD00C25EA5 /* LaunchScreen.storyboard */; };
 		BD30B67A206241D000C25EA5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD30B679206241D000C25EA5 /* GameScene.swift */; };
+		BD92F14E207F234B00C82D1D /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD92F14D207F234B00C82D1D /* BGM.mp3 */; };
+		BD92F178208585DA00C82D1D /* koukaon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD92F177208585DA00C82D1D /* koukaon.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BD30B67120623EAD00C25EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD30B67320623EAD00C25EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD30B679206241D000C25EA5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BD92F14D207F234B00C82D1D /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
+		BD92F177208585DA00C82D1D /* koukaon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = koukaon.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				BD30B66E20623EAD00C25EA5 /* Assets.xcassets */,
 				BD30B67020623EAD00C25EA5 /* LaunchScreen.storyboard */,
 				BD30B67320623EAD00C25EA5 /* Info.plist */,
+				BD92F14D207F234B00C82D1D /* BGM.mp3 */,
+				BD92F177208585DA00C82D1D /* koukaon.mp3 */,
 			);
 			path = FlappyBird;
 			sourceTree = "<group>";
@@ -126,9 +132,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD92F178208585DA00C82D1D /* koukaon.mp3 in Resources */,
 				BD30B67220623EAD00C25EA5 /* LaunchScreen.storyboard in Resources */,
 				BD30B66F20623EAD00C25EA5 /* Assets.xcassets in Resources */,
 				BD30B66D20623EAD00C25EA5 /* Main.storyboard in Resources */,
+				BD92F14E207F234B00C82D1D /* BGM.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
